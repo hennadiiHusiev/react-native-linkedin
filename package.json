@@ -74,10 +74,5 @@
     "testMatch": [
       "**/*.test.ts?(x)"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn lint && yarn tsc && yarn test"
-    }
   }
 }
